@@ -1,0 +1,54 @@
+{
+  "name": "pi-cache",
+  "version": "1.0.0",
+  "description": "Pi-native runtime cache and memoization toolkit for pi.dev extension tools: deterministic cache keys, TTL/SWR policies, tag/namespace invalidation, optional local persistence.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "cache",
+    "memoization",
+    "ttl",
+    "lru",
+    "runtime",
+    "extension",
+    "pi-cache",
+    "stale-while-revalidate",
+    "invalidation"
+  ],
+  "author": "realvendex",
+  "license": "MIT",
+  "dependencies": {
+    "lru-cache": "^11.1.0",
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.2.0",
+    "@types/node": "^22.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
