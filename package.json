@@ -1,5 +1,5 @@
 {
-  "name": "pi-cache",
+  "name": "@realvendex/pi-cache",
   "version": "1.0.0",
   "description": "Pi-native runtime cache and memoization toolkit for pi.dev extension tools: deterministic cache keys, TTL/SWR policies, tag/namespace invalidation, optional local persistence.",
   "type": "module",

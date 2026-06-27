@@ -1,11 +1,11 @@
-# pi-cache
+# @realvendex/pi-cache
 
 > Pi-native runtime cache and memoization toolkit for pi.dev extension tools.
 
 ## Installation
 
 ```bash
-pi install npm:pi-cache
+pi install npm:@realvendex/pi-cache
 ```
 
 ## What It Does
@@ -107,9 +107,9 @@ cache_get → persistencePath="./cache.json"  // reads from disk
 
 ## Resources
 
-- [npm](https://www.npmjs.com/package/pi-cache)
+- [npm](https://www.npmjs.com/package/@realvendex/pi-cache)
 - [GitHub](https://github.com/ZachDreamZ/pi-cache)
-- [pi.dev](https://pi.dev/packages/pi-cache)
+- [pi.dev](https://pi.dev/packages/@realvendex/pi-cache)
 
 ## License
 
